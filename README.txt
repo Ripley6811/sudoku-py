@@ -1,6 +1,6 @@
 Project: Sudoku game generator
 Author: Ripley6811
-Email: TasteTheJava@hotmail.com
+Email: python@boun.cr
 
 Sudoku game generator based on what I know from playing the game.
 
