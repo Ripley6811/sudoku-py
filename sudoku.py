@@ -111,7 +111,7 @@ def reduce_options(board, Pcube):
         for each in exclude:
             Pcube[i,j,Pcube[i,j]==each] = 0
 
-    for layer in Pcube.T: # probable layers 1 through 9
+    for layer in Pcube.T: # possibility layers 1 through 9
         for i in range(9):
             rowsfilled = sum(layer[i,:3])>0, sum(layer[i,3:6])>0, sum(layer[i,6:])>0
             if sum(rowsfilled) == 1:
