@@ -180,7 +180,7 @@ def main():
     print 'Solution\n', solution
     print 'Sudoku\n', str(sudoku).replace('0','_')
     print sum(sudoku == 0), 'blanks (', int(sum(sudoku == 0)/.81), '%)'
-
+    raw_input()
 
 if __name__ == '__main__':
     main()
